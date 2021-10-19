@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cb021c;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.hamburger {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  font-size: 3rem;
+}
+.phone {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 3rem;
+}
+
+.logo {
+  color: white;
+  margin: 2rem 0;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.logo i {
+  font-size: 3rem;
+}
+
+.logo h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.logo p {
+  color: #1f1f1f;
+  font-weight: bold;
+  margin: 0;
+}
+
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+  margin-top: 10rem;
+}
+
+.carousel {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100vw;
+  text-align: center;
+}
+
+.slide img {
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  font-size: 5rem;
+  opacity: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+.left-arrow {
+  left: 2rem;
+}
+
+.right-arrow {
+  right: 2rem;
+}
